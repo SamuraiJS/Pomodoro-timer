@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- ICONS -->
+	<script src="https://kit.fontawesome.com/d99d28d2f5.js" crossorigin="anonymous"></script>
+
+	<!--SCRIPT-->
+	<script src="index.js" defer></script>
+	<title>Pomodoro timer</title>
+</head>
+<body>
+	<div class="container">
+		<div class="container-timer">
+			<h3>Pomodoro</h3>
+			<p>Establece el numéro de seciones:</p>
+			<div class="container-num-secions">
+				<button class="decrement">-</button>
+				<span class="num-secions">1</span>
+				<button class="increment">+</button>
+			</div>
+			<br/>
+			<span class="work active">
+				WORK
+			</span>
+			<span class="break">
+				BREAK
+			</span>
+			<div class="time">
+				<div class="circle">
+					<span class="min"></span>
+					<span class="dots">:</span>
+					<span class="sec"></span>
+					<span class="secions">5</span>
+				</div>
+			</div>
+			<button class="play">Play <i class="fa-sharp fa-solid fa-play"></i></button>
+			<button class="restart" disabled>Restart <i class="fa-sharp fa-solid fa-rotate-left"></i></button>
+
+			<br/>
+			<!--BOTONES PARA ESTABLECER EL TIPO DE SECIÓN-->
+			<button class="long-secion">LONG SECION</button>
+			<button class="short-secion active">SHORT SECION</button>
+		</div>
+	</div>
+</body>
+</html>
