@@ -157,7 +157,7 @@ playButton.addEventListener('click', () => {
 			}
 		}
 		
-	}, 10)
+	}, 1000)
 
 	//Habilitar el boton de restart
 	restart.classList.add('view');
